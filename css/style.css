@@ -15,7 +15,7 @@ body {
   border-radius: 2px;
   background-color: #ffffff;
   color: var(--azul-oscuro);
-  background-image: url("/img/fondo.png");
+  background-image: url("../img/fondo.png");
   background-position: right;
   background-repeat: no-repeat;
 }
