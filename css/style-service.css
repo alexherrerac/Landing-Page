@@ -1,0 +1,146 @@
+:root {
+  --blanco: #FFFFFF;
+  --negro: #000000;
+  --negro-claro: #3A3A3A;
+  --azul: #133B4F;
+  --amarillo: #FCA70C;
+  --gris: #8E8E8E;
+  --lila: #C4C4F7;
+}
+
+body {
+  background-color: #645DBA
+}
+
+.container {
+  width: 700px;
+  height: 420px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: #ffffff;
+  font-family: 'Open Sans';
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: var(--lila);
+  border-style: none;
+  font-size: 9.3px;
+  outline: none;
+}
+
+a {
+  color: var(--negro);
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.logo {
+  padding-left: 30px;
+}
+
+.logo__item {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.menu {
+  width: 39%;
+  position: relative;
+  left: 100px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  list-style: none;
+}
+
+.menu-list__link {
+  font-size: 9.3px;
+  color: var(--negro-claro);
+  outline: none;
+}
+
+.btn-sign-up {
+  margin: 0;
+  padding-right: 45px;
+  text-align: center;
+}
+
+.btn-sign-up__item {
+  border-radius: 12px;
+  width: 67px;
+  height: 24px;
+}
+
+.btn-sign-up__link {
+  display: flex;
+  justify-content: center;
+}
+
+.section-info {
+  margin: 26px;
+  padding-top: 20px;
+  text-align: start;
+}
+
+.main-title {
+  font-size: 45px;
+  color: var(--azul);
+  line-height: 10px;
+}
+
+.second-title {
+  font-size: 20px;
+  font-family: "Open Sans Regular";
+  letter-spacing: 5pt;
+  color: var(--amarillo);
+  line-height: 15px;
+}
+
+.info-text {
+  font-size: 8px;
+  color: var(--gris);
+  line-height: 13px;
+}
+
+.banner {
+  position: relative;
+  right: 25px;
+  top: 30px;
+}
+
+.main-image {
+  height: 93%;
+  width: 102%;
+}
+
+.btn-more {
+  margin-top: 43px;
+}
+
+.btn-more__item{
+  border-radius: 18px;
+  width: 83px;
+  height: 23px;
+}
+
+.btn-more__link {
+  font-weight: bold;
+  color: var(--blanco);
+  margin: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
