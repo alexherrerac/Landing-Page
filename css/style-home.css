@@ -20,16 +20,6 @@ body {
   background-repeat: no-repeat;
 }
 
-main{
-  display: flex;
-  justify-content: space-between;
-}
-
-footer {
-  position: relative;
-  bottom: 22px;
-}
-
 button {
   background: var(--azul-claro);
   color: #ffffff;
@@ -93,26 +83,31 @@ a {
   justify-content: center;
 }
 
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
 .section-text {
   margin: 40px;
   padding-top: 28px;
   text-align: start;
 }
 
-.main-title {
+.main-title__item {
   color: var(--amarillo);
   font-size: 27px;
   font-family: "montserratbold";
   line-height: 12px;
 }
 
-.second-title {
+.second-title__item {
   font-size: 21px;
   font-family: "montserratmedium";
   line-height: 10px;
 }
 
-.info-text {
+.info-text__item {
   font-size: 11px;
   font-family: "montserratregular";
   line-height: 17px;
@@ -133,6 +128,11 @@ a {
 .banner {
   margin-top: 10px;
   margin-right: 13px;
+}
+
+footer {
+  position: relative;
+  bottom: 22px;
 }
 
 .social-media {

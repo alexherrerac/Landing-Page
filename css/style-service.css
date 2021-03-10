@@ -98,14 +98,14 @@ a {
   padding-top: 18px;
 }
 
-.main-title {
+.main-title__item {
   font-size: 45px;
   font-weight: bold;
   color: var(--azul);
   line-height: 8px;
 }
 
-.second-title {
+.second-title__item {
   font-size: 20px;
   font-weight: lighter;
   color: var(--amarillo);
@@ -113,7 +113,7 @@ a {
   line-height: 15px;
 }
 
-.info-text {
+.info-text__item {
   font-size: 8.1px;
   color: var(--gris);
   line-height: 14px;
@@ -125,7 +125,7 @@ a {
   top: 29px;
 }
 
-.main-image {
+.banner__image {
   height: 93%;
   width: 101%;
 }
