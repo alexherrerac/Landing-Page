@@ -1,0 +1,197 @@
+:root {
+  --blanco: #FFFFFF;
+  --negro: #000000;
+}
+
+body {
+  background-color: #97f9e3 
+}
+
+.container {
+  width: 700px;
+  height: 410px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: var(--blanco);
+  background-image: url("../img/fondo-question.png");
+  background-position: 190px -40px;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: var(--negro);
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: linear-gradient(to right, #ffb951, #ec880d);
+  border-style: none;
+  font-size: 9.3px;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--negro);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+}
+
+.logo {
+  display: flex;
+  margin-top: 6px;
+  margin-left: 35px;
+}
+
+.logo__icon {
+  background: linear-gradient(to right, #FBB040, #f7941E);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-top: 3px;
+}
+
+.logo__item {
+  padding-left: 7px;
+  font-size: 11.5px;
+  font-weight: 800;
+}
+
+.menu {
+  width: 32%;
+  position: relative;
+  left: 90px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  list-style: none;
+}
+
+.menu-list__link {
+  font-size: 9.5px;
+  outline: none;
+}
+
+.menu-list__link:hover {
+  font-size: 10.5px;
+}
+
+.btn-log-in {
+  margin: 0;
+  padding-right: 35px;
+  text-align: center;
+}
+
+.btn-log-in__item {
+  border-radius: 12px;
+  width: 53px;
+  height: 25px;
+}
+
+.btn-log-in__link {
+  font-weight: bold;
+  color: var(--blanco);
+}
+
+.section-info {
+  margin: 20px;
+  margin-left: 35px;
+}
+
+.main-title {
+  margin-bottom: 0;
+}
+
+.main-title__item {
+  margin-bottom: 0;
+  font-size: 26.5px;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.info-text {
+  margin-top: 10px;
+}
+
+.info-text__item {
+  margin-top: 0;
+  font-size: 10.5px;
+  font-weight: normal;
+  line-height: 12px;
+}
+
+.banner {
+  position: absolute;
+  right: -5px;
+  bottom: 38px;
+}
+
+.btn-more {
+  margin-top: 30px;
+}
+
+.btn-more__item{
+  border-radius: 18px;
+  width: 94px;
+  height: 29px;
+}
+
+.btn-more__link {
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--blanco);
+  margin: 0;
+}
+
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans.eot');
+  src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans.woff2') format('woff2'),
+      url('../fonts/OpenSans.woff') format('woff'),
+      url('../fonts/OpenSans.ttf') format('truetype'),
+      url('../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.eot');
+  src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('../fonts/OpenSans-Bold.woff') format('woff'),
+      url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+      url('../fonts/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Extrabold.eot');
+  src: url('../fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/OpenSans-Extrabold.woff2') format('woff2'),
+      url('../fonts/OpenSans-Extrabold.woff') format('woff'),
+      url('../fonts/OpenSans-Extrabold.ttf') format('truetype'),
+      url('../fonts/OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
